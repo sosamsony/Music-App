@@ -14,7 +14,8 @@ export const Sidebar = () => {
             <Card_sm cover={item.cover} name={item.name} tag={item.tag} i={i} />
           </div>
         ))}
-        <h1 className='mb-5 text-lg font-semibold text-gray-600 mt-5'>Go Mobile</h1>
+        <h1 className='mb-5 text-lg font-semibold text-gray-600 mt-5'>Go Mobile By <a href="https://sosamson.com" target = "_blank" 
+rel = "noopener noreferrer">Sosamson</a></h1>
 
         <div className='flex justify-between'>
           <div className='bg-secondary text-white flex center px-2 py-0.5 rounded-md'>
@@ -38,7 +39,7 @@ export const Sidebar = () => {
         </div>
 
         <p className='text-sm mt-3'>About Contact Legal Policy</p>
-        <span className='text-gray-500 text-[12px]'>© Copyright 2022</span>
+        <span className='text-gray-500 text-[12px]'>© Copyright 2023.</span>
       </section>
     </>
   )
